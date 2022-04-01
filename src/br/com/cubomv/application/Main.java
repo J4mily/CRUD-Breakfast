@@ -42,7 +42,7 @@ public class Main {
 		// ===============================================
 		// DELETE -> DELETE
 		//remove prato pelo CPF
-		//pratoDAO.deleteByCPF("01333344456");
+		//pratoDAO.deleteByCPF("12345678914");
 		
 		// ===============================================
 	}
