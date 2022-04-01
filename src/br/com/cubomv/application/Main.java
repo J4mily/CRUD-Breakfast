@@ -11,22 +11,22 @@ public class Main {
 		
 		// ===============================================
 		// CREATE -> INSERT -> OK
-		Prato pratoDeMozart = new Prato();
-		pratoDeMozart.setCpf("00011122200");
-		pratoDeMozart.setNome("TESTE CPF OK");
-		pratoDeMozart.setAlimento("Pão");
+		//Prato prato = new Prato();
+		//prato.setCpf("00011122200");
+		//prato.setNome("Franciely Jamily");
+		//prato.setAlimento("Pão");
 		
-		pratoDAO.save(pratoDeMozart);
+		//pratoDAO.save(prato);
 		// ===============================================
 		
 		// ===============================================
-		// READ -> SELECT => OK
+		 //READ -> SELECT => OK
 		//visualização de todos os registros do BD
-		//int cont = 1;
-		//for(Prato p : pratoDAO.getPratos()) {
-		//	System.out.println("Prato "+ cont + " -> " + p.getCpf() + " " + p.getNome() + " " + p.getAlimento());
-		//	cont++;
-		//}
+		int cont = 1;
+		for(Prato p : pratoDAO.getPratos()) {
+			System.out.println("Prato "+ cont + " -> " + p.getCpf() + " " + p.getNome() + " " + p.getAlimento());
+			cont++;
+		}
 		// ===============================================
 		
 		// ===============================================
